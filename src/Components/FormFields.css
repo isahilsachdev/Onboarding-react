@@ -1,0 +1,40 @@
+.form-fields {
+  margin-top: 40px;
+}
+
+.form-fields > div > div {
+  padding: 5px 0px;
+  display: flex;
+}
+
+.form-fields > div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  margin: 10px auto;
+  text-align: start;
+}
+
+.form-fields input {
+  border: 1px solid #f0f0f0;
+  height: 35px;
+  border-radius: 5px;
+  padding: 0px 10px;
+}
+
+.form-fields input:focus-visible {
+  outline-color: #f0f0f0;
+}
+
+.form-fields label {
+  text-align: start;
+  padding: 5px 5px 5px 0px;
+  font-size: 15px;
+}
+
+.form-fields span {
+  padding: 5px 5px 5px 0px;
+  font-size: 14px;
+  color: lightgray;
+}

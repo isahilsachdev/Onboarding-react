@@ -1,0 +1,30 @@
+.plan-box p {
+  font-size: 12px;
+  margin: 5px 0px;
+}
+
+.plan-box h5 {
+  margin: 5px 0px;
+}
+
+.plan-container {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: 10px auto 5px;
+  padding: 20px 0px 0px;
+  gap: 15px;
+}
+
+.plan-box {
+  border: 1.5px solid #f0f0f0;
+  border-radius: 5px;
+  width: 35%;
+  text-align: left;
+  padding: 15px; 
+  cursor: pointer;
+}
+
+.plan-container .active {
+  border: 1.5px solid #8c31f0;
+}

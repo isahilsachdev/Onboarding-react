@@ -1,0 +1,67 @@
+.onboarding-component {
+  width: 50%;
+  margin: 20px auto;
+  padding: 20px
+}
+
+.onboarding-tabs {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0px;
+}
+
+.tab-pills-component {
+  display: flex;
+  align-items: center;
+}
+
+.tab-pills {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #e9e9e9;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+  cursor: pointer;
+}
+
+.tab-connecting-line {
+  width: 30px;
+  height: 2px;
+  background: #e9e9e9;
+}
+
+.active .tab-connecting-line, .active .tab-pills {
+  background: #8c31f0;
+  border: none;
+  color: #fff;
+}
+
+p {
+  color: #7a6e6e;
+}
+
+button {
+  width: 50%;
+  margin: 20px 0px;
+  background: #8c31f0;
+  border: none;
+  color: white;
+  height: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.onboarding-header {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.onboarding-header img {
+  width: 30px;
+  height: 30px;
+}

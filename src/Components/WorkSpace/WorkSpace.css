@@ -1,0 +1,17 @@
+.disabled-url {
+  pointer-events: none;
+  border: 1px solid lightgray;
+  border-radius: 5px 0px 0px 5px;
+  font-size: 14px;
+  width: 40%;
+  text-align: center;
+  padding: 8px 10px 5px;
+  background: #f3f2f4;
+  color: #a9a9a9;
+}
+
+.url-input {
+  width: 100% !important;
+  border-radius: 0px 5px 5px 0px !important;
+  border-left-width: 0px !important;
+}
