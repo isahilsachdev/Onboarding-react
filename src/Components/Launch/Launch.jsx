@@ -11,7 +11,7 @@ const Launch = ({switchTab}) => {
       <p>You have completed onboarding, You can start using the Eden!</p>
       <Button heading="Launch" onClick={() => {setIsLaunch(true)}} />
       {isLaunch && (
-        <p>Thank you Onboarding.</p>
+        <p>Thank you for Onboarding.</p>
       )}
     </div>
   )
